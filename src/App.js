@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import { Habit } from "./components/habit";
+import ViewWeekDetails from "./components/viewWeekDetails";
+import reducers from "./reducers";
+import { createStore } from "redux";
+import { Provider } from "react-redux";
+import Navbar from "./components/Navbar";
+const store = createStore(reducers);
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Provider store={store}>
+      <div>
+        <Navbar />
+
+        <Routes>
+          <Route path="/" element={<Habit />} />
+          <Route path="/view-week-details" element={<ViewWeekDetails />} />
+        </Routes>
+      </div>
+    </Provider>
   );
 }
 

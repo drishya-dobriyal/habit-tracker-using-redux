@@ -1,0 +1,46 @@
+/* Updated View Week Details container */
+#view-week-details {
+  padding: 20px;
+  margin: 20px auto;
+  width: 60%;
+  background-color: #f9fafb;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading for Habit */
+h1 {
+  font-size: 1.8rem;
+  color: #64748b;
+  margin-bottom: 10px;
+}
+
+.view-week-details-container {
+  display: flex;
+}
+
+/* Styling for each tracking detail */
+.tracking-detail {
+  width: 120px;
+  margin-bottom: 5px;
+}
+
+/* Date label */
+.tracking-detail p {
+  font-size: 1.1rem;
+  color: #64748b;
+}
+
+/* Select dropdown for status */
+.tracking-detail select {
+  border: 1px solid #64748b;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* Apply responsive styles for small screens */
+@media (max-width: 768px) {
+  #view-week-details-container {
+    width: 80%;
+  }
+}
