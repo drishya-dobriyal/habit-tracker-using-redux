@@ -30,7 +30,7 @@ Welcome to the Habit Tracker application! This simple yet effective tool allows 
 4. **Modify Habit Status:** If you need to change the status of a habit for any of the past days, click on the corresponding status button on that day in the seven-day view.
 
 ## Site: 
-""
+"https://drishya-dobriyal.github.io/habit-tracker-using-redux/"
 
 ## Installation and Setup
 
