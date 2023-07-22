@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Habit Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Habit Tracker application! This simple yet effective tool allows you to add and track multiple habits on a daily basis. Whether it's reading a book, going to the gym, or any other habit you want to develop, this app will help you stay accountable and motivated in your journey towards building positive routines.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+1. **Add Multiple Habits:** You can add and manage multiple habits that you want to track. Whether it's one or many, the app will handle them all.
 
-### `npm start`
+2. **Track Daily Progress:** The core functionality of this app is to track your habits every day. There are three statuses for each habit:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+   - **Fullfilled:** Mark the habit as done for a day.
+   - **Unfullfiller:** Mark the habit as not done for a day.
+   - **Skipped:** User did not take any action on a habit for a day.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. **Seven-Day View:** The app provides a clear view of each habit for the past seven days. It displays:
 
-### `npm test`
+   - **Today:** You can mark today's habit status.
+   - **Previous Six Days:** You can see the status of the habit for each of the previous six days.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. **Easy Status Toggle:** You can easily switch between the three statuses (fullfilled, Unfullfilled, Skipped) of a habit. You have the flexibility to change today's status as well as the status of any of the previous days.
 
-### `npm run build`
+## How to Use
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Add Habits:** Start by adding your habits to the tracker. Click on the "Add Habit" button and enter the habit's name.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **Track Daily Progress:** For each habit, you can click on the corresponding status button for each day. The buttons will toggle between "Fullfiller," "Unfullfilled," and "Skipped".
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Seven-Day View:** To view the past seven days' progress for a specific habit, simply click on view details.
 
-### `npm run eject`
+4. **Modify Habit Status:** If you need to change the status of a habit for any of the past days, click on the corresponding status button on that day in the seven-day view.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Site: 
+""
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Installation and Setup
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clone the repository: git clone https://github.com/drishya-dobriyal/habit-tracker-using-redux.git
+2. Navigate to the project directory: cd habit-tracker-using-redux
+3. Install the dependencies: npm install
+4. Start the development server: npm start
+5. Open your browser and visit http://localhost:3000 to see the habit tracker application.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Technologies Used
+1. React: JavaScript library for building user interfaces.
+2. redux: state management
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
