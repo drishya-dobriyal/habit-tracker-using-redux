@@ -15,7 +15,7 @@ function App() {
         <Navbar />
 
         <Routes>
-          <Route path="/" element={<Habit />} />
+          <Route path="*" element={<Habit />} />
           <Route path="/view-week-details" element={<ViewWeekDetails />} />
         </Routes>
       </div>
