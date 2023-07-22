@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/your-repo-name/static/css/main.325606bb.css",
-    "main.js": "/your-repo-name/static/js/main.deb0b1a2.js",
-    "index.html": "/your-repo-name/index.html",
-    "main.325606bb.css.map": "/your-repo-name/static/css/main.325606bb.css.map",
-    "main.deb0b1a2.js.map": "/your-repo-name/static/js/main.deb0b1a2.js.map"
+    "main.css": "/habit-tracker-using-redux/static/css/main.325606bb.css",
+    "main.js": "/habit-tracker-using-redux/static/js/main.deb0b1a2.js",
+    "index.html": "/habit-tracker-using-redux/index.html",
+    "main.325606bb.css.map": "/habit-tracker-using-redux/static/css/main.325606bb.css.map",
+    "main.deb0b1a2.js.map": "/habit-tracker-using-redux/static/js/main.deb0b1a2.js.map"
   },
   "entrypoints": [
     "static/css/main.325606bb.css",
