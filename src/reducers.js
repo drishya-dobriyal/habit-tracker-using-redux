@@ -1,26 +1,6 @@
 // reducers.js
 const initialState = {
-  habits: [
-    {
-      id: 1690022849298,
-      name: "Habit 1",
-      tracking: {
-        "7/22/2023": "unfullfilled",
-        "7/21/2023": "fullfilled",
-        "7/20/2023": "fullfilled",
-        "7/18/2023": "unfullfilled",
-      },
-      createdAt: "7/01/2023",
-    },
-    {
-      id: 1690022855538,
-      name: "Habit 2",
-      tracking: {
-        "7/20/2023": "skipped",
-      },
-      createdAt: "7/20/2023",
-    },
-  ],
+  habits: [],
 };
 
 const reducer = (state = initialState, action) => {
